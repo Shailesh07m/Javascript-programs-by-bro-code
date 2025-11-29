@@ -2,7 +2,7 @@
 // const cityInput = document.querySelector(".city")
 // const card = document.querySelector('.card')
 
-// const apikey = "5578bef726571d0e79f65031226526f9"
+// const apikey = ""
 // form.addEventListener("submit", async even => {
 //     even.preventDefault();
 //     const city = cityInput.value;
@@ -125,7 +125,7 @@ const form = document.querySelector(".weatherform");
 const cityInput = document.querySelector(".city");
 const card = document.querySelector('.card');
 
-const apikey = "5578bef726571d0e79f65031226526f9";
+// create your own api key
 
 form.addEventListener("submit", async event => {
     event.preventDefault();
@@ -226,3 +226,4 @@ function displayerror(message) {
     card.style.display = "flex";
     card.append(errorD);
 }
+
