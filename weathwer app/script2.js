@@ -2,7 +2,7 @@ const form = document.querySelector(".weatherform");
 const cityInput = document.querySelector(".city");
 const card = document.querySelector('.card');
 
-const apikey = "5578bef726571d0e79f65031226526f9";
+const apikey = "";
 // Optional: You can use Unsplash or Pexels API for dynamic images
 // const unsplashKey = "YOUR_UNSPLASH_ACCESS_KEY";
 
@@ -160,4 +160,5 @@ function displayerror(message) {
     card.style.display = "flex";
     card.className = 'card weather-default'; // Reset to default background
     card.append(errorD);
+
 }
